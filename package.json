@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "level5capstone",
+  "description": "setup and outline for the level 5 capstone. My additions before merging with group project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonnelly246/level5Capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adonnelly246/level5Capstone/issues"
+  },
+  "homepage": "https://github.com/adonnelly246/level5Capstone#readme"
+}
