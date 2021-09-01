@@ -20,7 +20,7 @@ const gameSchema = new Schema({
     },
     console:{
         type: String,
-        enum: ['PS4','PS5','XBoxONE', 'XBoxX', 'PC','Nintendo Switch'] //could have more than one console available-
+        enum: ['PS4','PS5','XBoxONE', 'XBoxX', 'PC','Nintendo Switch'] //could have more than one console per game-
         // one game to many consoles- data relationship
         //ref: "Console"
     },
