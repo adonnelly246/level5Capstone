@@ -1,5 +1,5 @@
 # level5Capstone
-setup and outline for the level 5 capstone. My additions before merging with group project
+
 
 Have you ever not been able to decide what video game to play next after completing all of the ones in your game library? Do all of your current games not spark interest anymore and your unsure what to play instead?
 Or do you know what type of game you want to play, but aren't sure which one?
