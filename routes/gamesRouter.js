@@ -14,7 +14,16 @@ gamesRouter.get('/',(req,res,next)=>{
 })
 
 //GET one
+gamesRouter.get('/:gameId', (req,res,next) =>{
+    Game.findById(gameId, (err, foundGame)=>{
+        if (err){
+            res.status(500)
+            return next(err)
+        }
+        return res.status(201).send(foundGame) 
+    })
 
+})
 
 //POST new
 gamesRouter.post( "/", (req, res, next)=>{
